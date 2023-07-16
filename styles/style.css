@@ -267,6 +267,14 @@ header {
     margin-block: 10px;
     margin-inline: 10px;
   }
+
+  .gallery-description {
+    order: 1;
+  }
+  .gallery-img {
+    order: 2;
+  }
+
   .feature-container {
     grid-template-columns: 1fr;
     margin-inline: 10px;
@@ -286,9 +294,15 @@ header {
     margin-bottom: 30px;
   }
   .facts-icon {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding-inline: 10px;
-    gap: 20px;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+  }
+  .facts-icon-with-text {
+    width: 300px;
+    height: 300px;
   }
   .sponsors-img {
     margin-inline: 20px;
